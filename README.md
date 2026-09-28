@@ -1,22 +1,22 @@
-# PARKSHARE
-
+# ParkShare
 Smart Peer-to-Peer Parking Rental Platform
 
-## Project Description
-
-PARKSHARE is a mobile platform that connects parking space owners with vehicle owners looking for convenient and affordable parking.
-
-## Technology Stack
-
+## Tech Stack
 - React Native
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT
-- Google Maps API
-- Razorpay
+- Expo
+- Expo Router
+- TypeScript
 
-## Team
+## Project Structure
+- `app/`: Expo Router file-based navigation routes and screens (`(auth)`, `(user)`, `(owner)`, `parking/`).
+- `components/`: Shared UI components organized by module (`common/`, `parking/`, `booking/`, `layout/`).
+- `services/`: API layer and external service integrations.
+- `store/`: Application state management stores.
+- `hooks/`: Custom React hooks for shared logic.
+- `types/`: TypeScript type definitions and interfaces.
+- `constants/`: Global constants including colors, route paths, and configuration.
+- `utils/`: Helper functions, data formatters, and validation logic.
+- `assets/`: Static media files (`images/`, `icons/`, `fonts/`).
 
-PARKSHARE Development Team
+## Development
+Team members will independently implement assigned modules.
